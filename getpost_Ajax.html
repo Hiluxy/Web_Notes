@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <title>Title</title>
+    <script>
+        function f1() {
+            $.ajax({
+                type: "GET",
+                url: "주소?키=벨류",
+                data: {},
+                success: function (response) {
+                }
+            })
+        }
+
+
+        $.ajax({
+            type: "POST",
+            url: "/test",
+            data: {title_give: '벨류'},
+            success: function (response) {
+
+            }
+        })
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
